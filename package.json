@@ -1,0 +1,21 @@
+{
+  "name": "chatty",
+  "version": "0.1.0",
+  "description": "An open source chat service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theil/chatty"
+  },
+  "author": "Jean Pérez",
+  "license": "MIT",
+  "scripts": {
+    "start": "",
+    "test": ""
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
