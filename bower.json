@@ -1,0 +1,22 @@
+{
+  "name": "chatty",
+  "description": "An open source chat service",
+  "main": "",
+  "authors": [
+    "Jean Pérez"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "group",
+    "chat"
+  ],
+  "homepage": "https://github.com/theil/chatty",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
