@@ -6,7 +6,7 @@
   "author": "Jean Pérez",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --config ./client/webpack.config.js && nodemon server.js -e js,pug",
+    "start": "webpack-dev-server --config ./client/webpack.config.js && nodemon --harmony server.js -e js,pug",
     "test": ""
   },
   "keywords": [

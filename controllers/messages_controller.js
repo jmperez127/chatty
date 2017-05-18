@@ -1,7 +1,7 @@
-var express = require('express')
-var router = express.Router()
+let express = require('express')
+let router = express.Router()
 
-router.post('/messages/:id', function (req, res) {
+router.post('/messages/:id', (req, res) => {
   res.render('messages/index')
 })
 

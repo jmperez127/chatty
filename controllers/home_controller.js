@@ -1,11 +1,11 @@
-var express = require('express')
-var router = express.Router()
+let express = require('express')
+let router = express.Router()
 
-router.get('/', function (req, res) {
+router.get('/', (req, res) => {
   res.render('home/index')
 })
 
-router.get('/sign_in', function (req, res) {
+router.get('/sign_in', (req, res) => {
   res.render('home/sign_in')
 })
 

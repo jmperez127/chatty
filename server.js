@@ -1,5 +1,5 @@
-var express = require('express')
-var app = express()
+let express = require('express')
+let app = express()
 
 app.engine('pug', require('pug').__express)
 app.set('view engine', 'pug')
