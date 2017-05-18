@@ -6,7 +6,6 @@ app.set('view engine', 'pug')
 
 app.use(express.static(__dirname + '/public'))
 // app.use(require('./middlewares/users'));
-// app.use(require('./controllers'))
 
 require('fs').readdirSync(__dirname + '/controllers').forEach(function (file) {
   app.use(require('./controllers/' + file))
