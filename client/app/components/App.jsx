@@ -4,7 +4,7 @@ export default class App extends React.Component {
   render () {
     return (
       <div style={{textAlign: 'center'}}>
-        <h1>React test</h1>
+        <button className="btn btn-primary">React test</button>
       </div>)
   }
 }
